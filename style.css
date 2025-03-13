@@ -71,12 +71,10 @@ main h2 {
 p {
   text-align: center;
   color: #cf9063;
-  font-family: "Raleway", sans-serif; 
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  line-height: 1.5; 
-
+  line-height: 1.5;
 }
-
 article {
   top: -60px;
   bottom: 0px;
@@ -86,14 +84,13 @@ article {
   position: relative;
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 500px;
-  text-align:justify;
-  color: #cf9063;
-  font-family: "Raleway", sans-serif; 
+  max-width: 350px;
+  text-align: justify;
+  color: #b6ecff;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  line-height: 1.5; 
+  line-height: 1.5;
   padding-bottom: 30px;
-
 }
 
 footer {
@@ -130,18 +127,26 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align:center;
+  text-align: center;
   margin: 0 auto;
   padding: 50px;
-} 
+}
 
+.who-am-i {
+  border: 1px solid #cf906376;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: rgb(48, 53, 57);
+  opacity: 0.5;
+}
 
 .btn-main {
   background-color: #d77a61;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 5.7px;
   padding: 16px 40px;
   text-decoration: none;
@@ -176,54 +181,6 @@ footer p {
   background-color: #232020; /* Color of the scrollbar track */
   border-radius: 10px; /* Rounded corners */
 }
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 600px;
-  margin: -50px auto;
-  padding: 5px;
-  background-color:#ffffffbf;
-  font-family: 'Raleway', sans-serif;
-  padding-bottom: 15px;
-}
-
-.contact-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-container label {
-  margin-top: 10px;
-  font-weight: 600;
-}
-
-.contact-container input,
-.contact-container textarea {
-  margin-top: 5px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
-}
-
-.contact-container button {
-  margin-top: 20px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-}
-
-.contact-container button:hover {
-  background-color:#d77a61;
-}
-
 
 @media (max-width: 500px) {
   main h1 {
