@@ -86,7 +86,7 @@ article {
   padding: 0 20px;
   max-width: 350px;
   text-align: justify;
-  color: white; 
+  color: #b6ecff;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -133,13 +133,14 @@ footer p {
 }
 
 .who-am-i {
-  border: 1px solid #cf9063;
+  border: 1px solid #cf906376;
   border-radius: 7px;
   padding-top: 20px;
   padding-bottom: 15px;
-  background-color:darkslategray;
-  opacity: 0.45;
-} 
+  background-color: rgb(48, 53, 57);
+  opacity: 0.5;
+}
+
 .btn-main {
   background-color: #d77a61;
   color: #fff;
